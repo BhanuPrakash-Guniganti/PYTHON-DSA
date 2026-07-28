@@ -45,12 +45,12 @@ print(arr)
 
 
 """
-
+"""
 arr = [10,20,30]
 arr.insert(1, 50)  #(index, value)
 print(arr)
 
-
+"""
 """
 
 #Updating (using index value)
@@ -91,5 +91,68 @@ print(arr)
 """
 
 
+"""
+
+arr = [10, 20, 30, 40, 50, 60]
+arr.reverse()  #reversing an array
+print(arr)
+
+"""
 
 
+"""
+
+arr = [int(x) for x in input().split]
+i = 0
+mid = len(arr)//2
+while i<mid:
+    arr[i].arr[len(arr)-i-1] = arr[len(arr)-i-1].arr[i]
+    i+=1
+print(arr)    
+
+"""
+
+
+
+""" 
+
+#Minimum & Maximum of elements
+
+arr = list(map(int, input ("Enter any elements:").split()))
+def find_maximum(array):
+    if not array:
+        return None
+    maxi = array [0]
+    for i in range(i,len(array)):
+        if array[i] > maxi:
+            maxi = array[i]
+            return maxi
+        print(find_maximum(arr))     
+
+"""       
+
+
+
+
+
+"""
+           #Sum of an array
+#Algorithm
+#Initialize sum = 0
+#Traverse the array.
+#Add each element to sum.
+#Print sum
+
+
+arr = []       #creates an empty array
+for i in range(int(input('Enter the size of an array:'))):     
+    ele = (int(input('Enter the elements:')))
+    arr.append(ele)
+    print(sum(arr))    
+
+"""
+
+
+arr = [int (x) for x in input().split()]
+target = int(input())
+print(arr.count(target))
