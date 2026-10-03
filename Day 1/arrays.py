@@ -152,7 +152,14 @@ for i in range(int(input('Enter the size of an array:'))):
 
 """
 
+"""
 
-arr = [int (x) for x in input().split()]
+#frequency of the element
+arr = [int(x) for x in input().split()]
 target = int(input())
 print(arr.count(target))
+
+"""
+
+
+
